@@ -1,0 +1,261 @@
+package assignment;
+import java.util.Scanner;
+public class Assignment3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		String name; 
+	    char gender='F';
+	    double weight, height, bmi, caloriesperserving,caloriesconsume;
+	    double minweight,maxweight;
+	    double addweight1,addweight2,loseweight1,loseweight2;
+	    int age, mealsperday, servingpermeal, activelevel,ricetype;
+	    double[][] weights = new double[4][7];
+	    
+	    System.out.println("WELCOME TO HEALTHY LIFE");
+	    System.out.println();
+	    
+	    System.out.println("-Information Archive-");
+	    //read information that need to be entered by user.
+	    System.out.print("Enter your name : ");
+	    name = sc.nextLine();
+	    System.out.print("Enter your gender, if female press F if male press M : ");
+	    gender = sc.next().charAt(0);
+	    System.out.print("Enter your age: ");
+	    age = sc.nextInt();
+	    System.out.print("Enter your height in m : ");
+	    height = sc.nextDouble();
+	    System.out.print("Enter your weight in kg: ");
+	    weight = sc.nextDouble();
+	    
+	    System.out.println();
+	    System.out.print("Enter your type of rice consume"
+	    		+ "\n1.White Rice"
+	    		+ "\n2.Brown Rice"
+	    		+ "\n3.Purple Rice"
+	    		+ "\n4.Black Rice"
+	    		+ "\n5.Red Rice"
+	    		+ "\nChoose a number: ");
+	    ricetype = sc.nextInt();
+	    System.out.println();
+	    System.out.print("Enter your meals per day that you eat rice: ");
+	    mealsperday = sc.nextInt();
+	    System.out.print("Enter how many serving of rice you eat per meal : ");
+	    servingpermeal = sc.nextInt();
+	    System.out.print("Enter how many calories in one serving of your rice: ");
+	    caloriesperserving = sc.nextDouble();
+	    
+	    System.out.println();
+	    System.out.print("How active are you"
+	    		+ "\n1.Not active"
+	    		+ "\n2.Moderate"
+	    		+ "\n3.Active"
+	    		+ "\nChoose a number: ");
+	    activelevel = sc.nextInt();
+	    
+	    //information on the benefits 0f white rice and brown rice.
+	    System.out.println();
+	    System.out.println("-Additional Information-");
+	    WhiteBrownRice();//declare WhiteBrownRice method
+	    
+	    //calculation 
+	    System.out.println();
+	    System.out.println("-About Your Health-");
+	    
+	    bmi = BMI(weight,height);//declare BMI method that return value to bmi variable.
+	    
+	    System.out.printf("Your bmi is : %.2f",bmi);
+	    
+	    WeightStatus(bmi);//declare WeightStatus method
+	    
+	    minweight = (18.5)*Math.pow(height,2);
+	    maxweight = (25.0)*Math.pow(height,2);
+	    
+	    System.out.printf("%nHealthy weight for the height : %.2fkg - %.2fkg",minweight,maxweight);
+	    
+	    caloriesconsume = CaloriesCount(caloriesperserving,servingpermeal,mealsperday);//declare CaloriesCount method 
+	    
+	    AboutCalories(caloriesconsume);//declare AboutCalories method
+	    
+	    System.out.println();
+	    
+	    WaterCaloriesCut(caloriesconsume);//declare WaterCaloriesCut method
+	    
+	    System.out.print("-Advices On A Healthy Lifestyle-");
+	    
+	    do {
+	    if((weight<minweight)&&(weight<maxweight)) {
+	    	addweight1 = minweight-weight;
+	    	addweight2 = maxweight-weight;
+	    	System.out.printf("%nWeight need to be gain are in between %.2fkg to %.2fkg",addweight1,addweight2);
+	    	UnderweightAdvice();//declare UnderweightAdvice method
+	    }	
+	    else if((weight>=minweight)&&(weight<=maxweight)) {
+	    	System.out.println("\nNo need to gain or lose weight, Please maintain your weight!");
+	    	NormalAdvice();//declare NormalAdvice method
+	    }
+	    else if((weight>minweight)&&(weight>maxweight)) {
+	    	loseweight1 = weight-maxweight;
+	    	loseweight2 = weight-minweight;
+	    	System.out.printf("%nWeight need to be lose are in between %.2fkg to %.2fkg",loseweight1,loseweight2);
+	    	OverweightObeseAdvice();//declare OverweightObeseAdvice method
+	    }
+	    System.out.println();
+	    RecordWeight(weights);//Passing weight arrays to RecordWeight method
+	    System.out.println();
+	    System.out.println("Enter your weight after a month:"); 
+	    weight = sc.nextDouble();
+	    System.out.println("Advices will keep displaying until you achieve healthy weight and normal BMI.");
+	    minweight = (18.5)*Math.pow(height,2);
+	    maxweight = (25.0)*Math.pow(height,2);
+	    }while(weight<minweight || weight>maxweight);
+	    
+	    System.out.println();
+	    System.out.println("Congrats! You have reach healthy weight and normal BMI.");
+	    System.out.println("Thank you for using HealthyLife, have a good day!");
+
+	}
+	public static double BMI(double w,double h) {
+		//Method take arguments weight and height from main method
+		double bmi;
+		bmi = w/Math.pow(h,2);//calculate BMI
+		return bmi;  //return BMI value
+	}
+	public static void WeightStatus(double bmi) {
+		//Method take arguments BMI from the main menu
+		//method will display message that determine the weight status
+		 if(bmi<18.5)
+       	     System.out.println("\nYou are underweight and cannot afford to lose more.");
+		 
+        else if((bmi>=18.5)&&(bmi<25))
+        	 System.out.println("\nNice!! you are in healthy weight range.");
+       
+        else if((bmi>=25)&&(bmi<30))
+        	 System.out.println("\nYou are in overweight range and need to lose some weight.");
+       
+        else
+        	 System.out.println("\nYou are in obese range and need to lose weight.");
+	}
+	public static void UnderweightAdvice(){
+		//method will display advices to people with Underweight BMI
+		System.out.println("\nSports suitable for underweight bmi person are yoga, pilates, swimming, weightlifting or biking");
+    	System.out.println("Suggested diet:");
+    	System.out.println("Consume plenty of good fats like avocados, nuts, plant-based oil and eat white rice");
+    	System.out.println("Men are advised to consume around 2500 calories a day.");
+    	System.out.println("Women are advised to consume around 200 calories a day.");
+	}
+	public static void NormalAdvice() {
+		//method will display advices to people with normal BMI
+    	System.out.println("Sports suitable for normal bmi person are yoga, pilates, swimming, weightlifting, biking, or running");
+    	System.out.println("You can stay with your normal daily diet");
+    	System.out.println("Men are advised to consume around 2500 calories a day.");
+    	System.out.println("Women are advised to consume around 200 calories a day.");
+	}
+	public static void OverweightObeseAdvice() {
+		//method will display advices to people with Overweight or Obese BMI
+		System.out.println("\nSports suitable for overweight and obese bmi person are swimming, sprinting, soccer, martial arts, or basketball");
+    	System.out.println("Suggested diet:");
+    	System.out.println("Consume plenty of fruits and vegetables, wholegrain varieties, meats, and eat brown rice that contain lots of fiber.");
+    	System.out.println("Men are advised to consume less than 1900 calories a day.");
+    	System.out.println("Women are advised to consume less than 1400 calories a day.");
+	}
+	public static double CaloriesCount(double a,int b,int c) {
+		//method calculate the calories consume
+		double caloriesconsume;
+		caloriesconsume = a*b*c;
+		return caloriesconsume;//return the calories consume
+	}
+	public static void AboutCalories(double cal){
+		//method will return message
+		double weightgain;
+	    System.out.printf("%nYour calories of rice consume per day is : %.2f",cal);
+	    System.out.println();
+	    
+	    System.out.print("\n7700 calories equal to 1 kg");	    
+	    weightgain = cal/7700;//calculate the weight gain if there is no activity done.
+	    System.out.printf("%nweight gain if no calories burn : %.2fkg%n",weightgain);	    
+	    System.out.println("30 minutes of running can burn 200 to 500 calories");
+	}
+	public static void WaterCaloriesCut(double cal) {
+		//method will print out message
+		Scanner sc = new Scanner(System.in);
+		double watersum = 0;
+		double calorieslost = 0, totalcalories = 0;
+		System.out.print("Enter how many times per day you drink water: ");
+		int count = sc.nextInt();
+		double[] liters = new double[count];
+		
+		System.out.println("Enter how many liters each time you drink in one day for "+count+" times");
+		for(int i=0 ; i<liters.length ; i++) {
+			liters[i]=sc.nextDouble();
+			watersum = watersum + liters[i];//calculate sum of water drinks in liters
+		}
+		System.out.println();
+		System.out.print("Researchers conclude 2 liters of water per day can burnt extra 100 calories");
+		
+		calorieslost = ((watersum/2)*100);//calculate the calories lost by just drinking water
+		
+		if(calorieslost<cal)//only if calories lost by drinking water smaller then calories consume..
+			totalcalories = (cal-calorieslost);//calculate the calories intakes by subtracting calories consume with calories lost
+		else//else, total calories consume for today is zero
+			totalcalories = 0;
+		
+		System.out.printf("%nCalories lost by drinking water is %.2fcal ",calorieslost );
+		
+		System.out.printf("%nTotal calories consume in one day: %.2fcal %n", totalcalories );
+		System.out.println();
+	}
+	public static void WhiteBrownRice() {
+		//method WhiteBrownRice will print out message
+		Scanner sc = new Scanner(System.in);
+		char status = 'Y';
+		System.out.println("Press Y to know benefit about brown and white rice, Press N if vice versa");
+		status = sc.next().charAt(0);
+		
+		if(status=='Y') {
+			System.out.println("Benefits of brown rice: "
+					+"\n1) It lowers colesterol"
+					+"\n2) Assist cancer prevention"
+					+"\n3) Helps in diabetes control"
+					+"\n4) It is a good aid for weight loss");
+			System.out.println();
+			System.out.println("Benefits of white rice: "
+					+"\n1) Great source of energy"
+					+"\n2) Easy to digest"
+					+"\n3) It is gluten-free"
+					+"\n4) It is comforting and easy to access");
+		}	
+	}
+		public static void RecordWeight(double[][] w) {
+			//method take weights arrays as the argument from the main method
+			//method take input from user 
+			//method print out message
+			Scanner sc = new Scanner(System.in);
+			char status = 'Y';
+			
+			System.out.println("Press Y to record weight for a month, Press N if vice versa");
+			status = sc.next().charAt(0);
+			
+			if(status=='Y') {
+			System.out.println("Enter weight from day 1 to day 7 for 4 weeks");
+			
+			for(int r = 0; r<w.length; r++) { //record weights for 4 weeks
+			System.out.println("Enter weight for week "+(r+1));
+			for(int c = 0; c<w[r].length; c++) {
+				w[r][c] = sc.nextDouble();
+			    }
+		    }
+			for(int r = 0; r<w.length; r++) {
+				System.out.print("week "+(r+1)+" : ");
+				for(int c = 0; c<w[r].length; c++) {
+					System.out.print(w[r][c]+" ");
+				    }
+				System.out.println();
+			    }
+			}	
+		}
+		
+}
+
