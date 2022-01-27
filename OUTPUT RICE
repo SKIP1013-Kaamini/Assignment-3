@@ -1,0 +1,117 @@
+WELCOME TO HEALTHY LIFE
+
+-Information Archive-
+Enter your name : Juwita
+Enter your gender, if female press F if male press M : F
+Enter your age: 20
+Enter your height in m : 1.48
+Enter your weight in kg: 40
+
+Enter your type of rice consume
+1.White Rice
+2.Brown Rice
+3.Purple Rice
+4.Black Rice
+5.Red Rice
+Choose a number: 1
+
+Enter your meals per day that you eat rice: 2
+Enter how many serving of rice you eat per meal : 1
+Enter how many calories in one serving of your rice: 120
+
+How active are you
+1.Not active
+2.Moderate
+3.Active
+Choose a number: 1
+
+-Additional Information-
+Press Y to know benefit about brown and white rice, Press N if vice versa
+Y
+Benefits of brown rice: 
+1) It lowers colesterol
+2) Assist cancer prevention
+3) Helps in diabetes control
+4) It is a good aid for weight loss
+
+Benefits of white rice: 
+1) Great source of energy
+2) Easy to digest
+3) It is gluten-free
+4) It is comforting and easy to access
+
+-About Your Health-
+Your bmi is : 18.26
+You are underweight and cannot afford to lose more.
+
+Healthy weight for the height : 40.52kg - 54.76kg
+Your calories of rice consume per day is : 240.00
+
+7700 calories equal to 1 kg
+weight gain if no calories burn : 0.03kg
+30 minutes of running can burn 200 to 500 calories
+
+Enter how many times per day you drink water: 3
+Enter how many liters each time you drink in one day for 3 times
+1.2
+1.1
+1.0
+
+Researchers conclude 2 liters of water per day can burnt extra 100 calories
+Calories lost by drinking water is 165.00cal 
+Total calories consume in one day: 75.00cal 
+
+-Advices On A Healthy Lifestyle-
+Weight need to be gain are in between 0.52kg to 14.76kg
+Sports suitable for underweight bmi person are yoga, pilates, swimming, weightlifting or biking
+Suggested diet:
+Consume plenty of good fats like avocados, nuts, plant-based oil and eat white rice
+Men are advised to consume around 2500 calories a day.
+Women are advised to consume around 200 calories a day.
+
+Press Y to record weight for a month, Press N if vice versa
+Y
+Enter weight from day 1 to day 7 for 4 weeks
+Enter weight for week 1
+40.0
+40.0
+40.1
+40.3
+40.3
+40.4
+40.4
+Enter weight for week 2
+40.5
+40.5
+40.6
+40.6
+40.7
+40.5
+40.7
+Enter weight for week 3
+40.8
+40.8
+40.9
+41.0
+41.2
+41.3
+41.4
+Enter weight for week 4
+41.2
+41.2
+41.5
+41.6
+41.7
+41.9
+42.0
+week 1 : 40.0 40.0 40.1 40.3 40.3 40.4 40.4 
+week 2 : 40.5 40.5 40.6 40.6 40.7 40.5 40.7 
+week 3 : 40.8 40.8 40.9 41.0 41.2 41.3 41.4 
+week 4 : 41.2 41.2 41.5 41.6 41.7 41.9 42.0 
+
+Enter your weight after a month:
+42.0
+Advices will keep displaying until you achieve healthy weight and normal BMI.
+
+Congrats! You have reach healthy weight and normal BMI.
+Thank you for using HealthyLife, have a good day!
