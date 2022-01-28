@@ -1,0 +1,72 @@
+Please enter your name
+ARON
+Please enter your age
+21
+Please enter your contact number
+0111456789
+Please enter your address
+NEWYORK
+Do you have any medical condition,if yes please state
+NO
+Your details :
+Name :null
+Age : 21
+Address : NEWYORK
+Contact number : 111456789
+Medical Condition : NO
+/////////////////////////////////////////////////////////////////////////////////////////
+Here are the types of the flour to be chosen
+Please write price according to the list to select type of flour
+***********************************************************************************************
+1. Rice Flour(100g)         RM 0.50 
+2. Wheat Flour(100g)        RM 0.80 
+3. Wholemeal(100g)          RM 1.00 
+4. Mixed Grains(100g)       RM 1.20 
+************************************************************************************************
+1.20
+The flour chosen is Mixed Grains
+Please enter the amount of flour
+Amount available : 100g,200g,500g
+200
+The total amount of flour chosen is 200g  and the price :RM2.40 
+Please enter the amount of milk in millilitres(ml)
+Amount of milk available : 200ml,300ml,400ml
+300
+The price of milk chosen is RM2.40
+The total price for flour and milk is RM4.80
+Please enter the amount of sugar in grams(g)
+The amount of sugar available : 100g,200,300g
+100
+The price of sugar chosen is RM0.30
+The total price for flour,milk and sugar is RM5.10
+Now please enter the price of flavour according to list below
+***************************************************************************************************
+ 1. Plain             RM 0.10
+ 2. Chocolate         RM 0.20
+ 3. Vanilla           RM 0.15
+ 4. Butterscotch      RM 0.50
+****************************************************************************************************
+0.50
+The flavour chosen is Butterscotch
+The total price of bread  with flavour is RM5.60Please choose your favourite toppings by enter its price according list below
+*****************************************************************************************************
+ 1. Raisins           RM 0.40
+ 2. Chocolate Chips   RM 0.50
+ 3. Nuts              RM 0.30
+ 4. Purple Grains     RM 0.60
+*****************************************************************************************************
+0.30
+The toppings chosen is Nuts
+The total price for the bread is RM5.90
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+Please enter the quantity of your bread
+2
+The quantity of your bread is 2.0
+The total price of your order is RM11.80
+Discount Price :RM1.18
+Price to be paid :RM10.62 
+
+Please pay at the counter
+*******************************Thank You For Visiting Us**********************************************
+***********************************Please Come Again**************************************************
+Quote for today:Good health based on good food
