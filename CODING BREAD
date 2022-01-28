@@ -1,0 +1,197 @@
+package Bread;
+import java.util.Scanner;
+class Assignment2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner scan = new Scanner (System.in);
+		double priceflr,priceflvr,pricetoppings ;
+	    double amountflr;
+	    double amountmilk;
+	    double totalflr,totalflr1;
+	    double pricemilk = 0.80;
+	    double totalmilk;
+		double amountsugar;
+		double totalsugar;
+		double priceSugar = 0.30;
+		double totalbread;
+		double quantity;
+		double pricediscount;
+		double finalprice;
+		String name =showName();//declare array
+		int age = showAge();
+		int no =showNo();
+		String address = showAddress();
+		String medcod = showMedCod();
+		System.out.println("Your details :");
+		System.out.println("Name :" + name);
+		System.out.println("Age : " + age);
+		System.out.println("Address : " + address);
+		System.out.println("Contact number : " + no);
+		System.out.println("Medical Condition : " + medcod);
+		//showing the offer
+	    System.out.println("/////////////////////////////////////////////////////////////////////////////////////////");
+	    System.out.println("Here are the types of the flour to be chosen");//flour price
+	    System.out.println("Please write price according to the list to select type of flour");
+		System.out.println("***********************************************************************************************");
+		System.out.println("1. Rice Flour(100g)         RM 0.50 ");
+		System.out.println("2. Wheat Flour(100g)        RM 0.80 ");
+		System.out.println("3. Wholemeal(100g)          RM 1.00 ");
+		System.out.println("4. Mixed Grains(100g)       RM 1.20 ");
+		System.out.println("************************************************************************************************");
+		priceflr = scan.nextDouble();
+		if (priceflr == 0.50  )
+        	System.out.println("The flour chosen is Rice Flour");
+        else if(priceflr == 0.80)
+        	System.out.println("The flour chosen is Wheat Flour");
+        else if(priceflr == 1.00)
+        	System.out.println("The flour chosen is Wholemeal");
+        else if(priceflr == 1.20)
+        	System.out.println("The flour chosen is Mixed Grains");
+        else
+        	System.out.println("Invalid input");
+		System.out.println("Please enter the amount of flour");//flour amount
+		System.out.println("Amount available : 100g,200g,500g");
+		amountflr = scan.nextDouble();
+		totalflr = (amountflr*priceflr)/100;
+		if (amountflr == 100)
+			System.out.printf("The total amount of flour chosen is 100g  and the price :RM%.2f",totalflr);		
+	    else if (amountflr == 200)
+	    	System.out.printf("The total amount of flour chosen is 200g  and the price :RM%.2f",totalflr);	
+	    else if (amountflr == 500)
+	    	System.out.printf("The total amount of flour chosen is 500g  and the price :RM%.2f",totalflr);
+	    else
+				System.out.println("Invalid input");
+		
+		System.out.println(" ");
+		System.out.println("Please enter the amount of milk in millilitres(ml)");
+		System.out.println("Amount of milk available : 200ml,300ml,400ml");
+		amountmilk = scan.nextDouble();
+		totalmilk = (amountmilk*pricemilk)/100;
+		if (amountmilk == 200)
+			System.out.printf("The price of milk chosen is RM%.2f" , totalmilk );
+		else if (amountmilk == 300)
+			System.out.printf("The price of milk chosen is RM%.2f" , totalmilk );
+		else if (amountmilk == 500)
+			System.out.printf("The price of milk chosen is RM%.2f" , totalmilk);
+		else
+			System.out.println("Invalid input");
+		
+		System.out.printf("\nThe total price for flour and milk is RM%.2f",(totalflr+ totalmilk));
+		System.out.println("\nPlease enter the amount of sugar in grams(g)");
+		System.out.println("The amount of sugar available : 100g,200,300g");
+		amountsugar = scan.nextDouble();
+		totalsugar = (amountsugar *priceSugar)/100;
+		if (amountsugar == 100)
+			System.out.printf("The price of sugar chosen is RM%.2f",totalsugar);
+		else if (amountsugar == 200)
+			System.out.printf("The price of sugar chosen is RM%.2f", totalsugar);
+		else if (amountsugar == 300)
+			System.out.printf("The price of sugar chosen is RM%.2f", totalsugar);
+		totalflr1=totalflr+totalmilk+totalsugar;
+		System.out.printf("\nThe total price for flour,milk and sugar is RM%.2f",totalflr1);
+		System.out.println("");
+		System.out.println("Now please enter the price of flavour according to list below");//flavour price
+		System.out.println("***************************************************************************************************");
+		System.out.println(" 1. Plain             RM 0.10");
+		System.out.println(" 2. Chocolate         RM 0.20");
+		System.out.println(" 3. Vanilla           RM 0.15");
+		System.out.println(" 4. Butterscotch      RM 0.50");
+		System.out.println("****************************************************************************************************");
+		priceflvr = scan.nextDouble();
+		if (priceflvr == 0.10)
+			System.out.println("The flavour chosen is Plain");
+		else if (priceflvr == 0.20)
+			System.out.println("The flavour chosen is Chocolate");
+		else if (priceflvr == 0.15)
+			System.out.println("The flavour chosen is Vanilla");
+		else if (priceflvr == 0.50)
+			System.out.println("The flavour chosen is Butterscotch");
+		else
+			System.out.println("Invalid input");
+		System.out.printf("The total price of bread  with flavour is RM%.2f",totalflr1+priceflvr);
+		System.out.println("Please choose your favourite toppings by enter its price according list below");//toppings price
+		System.out.println("*****************************************************************************************************");
+		System.out.println(" 1. Raisins           RM 0.40");
+		System.out.println(" 2. Chocolate Chips   RM 0.50");
+		System.out.println(" 3. Nuts              RM 0.30");
+		System.out.println(" 4. Purple Grains     RM 0.60");
+		System.out.println("*****************************************************************************************************");
+		pricetoppings = scan.nextDouble();
+		if (pricetoppings == 0.40)
+			System.out.println("The toppings chosen is Raisins");
+		else if (pricetoppings == 0.50)
+			System.out.println("The toppings chosen is Chocolate Chips");
+		else if  (pricetoppings == 0.30)
+			System.out.println("The toppings chosen is Nuts");
+		else if  (pricetoppings == 0.60)
+			System.out.println("The toppings chosen is Purple Grains");
+		else
+			System.out.println("Invalid input");
+		totalbread = totalflr1+priceflvr+pricetoppings;
+		System.out.printf("The total price for the bread is RM%.2f",totalbread);
+		System.out.println("");
+		System.out.println("//////////////////////////////////////////////////////////////////////////////////////////////////////");
+		System.out.println("Please enter the quantity of your bread");//quantity bread
+		quantity = scan.nextDouble();
+		System.out.println("The quantity of your bread is "+ quantity);
+		finalprice = totalbread*quantity;
+		System.out.printf("The total price of your order is RM%.2f" , finalprice);
+		if (finalprice >= 50)
+			pricediscount=finalprice*0.2;
+		else if ((finalprice <= 49)  && (finalprice >= 5))
+			pricediscount = finalprice*0.1;
+		else
+			pricediscount=finalprice;
+		System.out.printf("\nDiscount Price :RM%.2f" , pricediscount);
+		System.out.printf("\nPrice to be paid :RM%.2f" ,(finalprice - pricediscount));
+		System.out.println(" ");
+		System.out.println("\nPlease pay at the counter");
+		System.out.println("*******************************Thank You For Visiting Us**********************************************");
+		System.out.println("***********************************Please Come Again**************************************************"); 
+		
+
+		  	}
+	public static String showName() {//method
+		String name1 = null;
+		Scanner scan = new Scanner (System.in);
+		System.out.println("Please enter your name");
+		String name = scan.next();
+		return name1;
+		
+	}
+	public static int showAge() {
+		Scanner scan = new Scanner (System.in);
+		System.out.println("Please enter your age");
+		int age = scan.nextInt();
+		return age;
+	}
+	public static String showAddress() {
+		Scanner scan = new Scanner (System.in);
+		System.out.println("Please enter your address");
+		String address = scan.next();
+		return address;
+	}
+	public static int showNo() {
+		Scanner scan = new Scanner (System.in);
+		System.out.println("Please enter your contact number");
+		int no = scan.nextInt();
+		return no;
+	}
+	public static String showMedCod() {
+		Scanner scan = new Scanner (System.in);
+		System.out.println("Do you have any medical condition,if yes please state");
+		String medcod = scan.next();
+		return medcod;
+	}
+	public static void showMessage() {//passing array to method
+
+		System.out.println("");
+		String[] message = {"Good health based on good food" };//array
+		for (int word = 0; word < message.length; word++)
+			System.out.println("Quote for today :" + message[word] );
+	
+	}
+}
+	
