@@ -1,0 +1,482 @@
+FOR CATEGORY 1
+
+Hi! Welcome to Special Cake!!!
+
+	The services we offer are :
+	 1. Special Choose 
+	 2. Special Slice 
+	 3. Special Cupcake 
+
+	 Which service do you prefer: 1
+
+
+	     Please fill the information detail 
+
+	Please state your name: SUHAILA
+	Please state your contact number: 0134349430
+	Please state your address: KAMPUNG KODIANG LAMA DALAM
+
+	Please state the date of order (The date only): 15
+	Please state the month of order: 6
+
+	Please state date to pick up (7 days after date of order): 17
+	Please state the month of pick up: 6
+
+	Invalid date. Choose another date: 
+	Please state date to pick up (7 days after date of order): 19
+
+	Invalid date. Choose another date: 
+	Please state date to pick up (7 days after date of order): 6
+
+	Invalid date. Choose another date: 
+	Please state date to pick up (7 days after date of order): 25
+
+
+	####################################################################################################################
+						 Category 1: Special Choose
+	####################################################################################################################
+
+	 Size(inch) [code] 	Weight (kg) 	Height(inch) 	Type [code] 	Name [code] 			Price (RM)
+
+										Tiramisu[9] 			    94
+										New York Cheese Cake[10] 	    100
+       	      		       					 Baked[40]	Black Forest[11] 		    106
+										Caramel Cream[7] 		    82
+										Oreo Cake[8] 			    88
+										Old Fashion Chocolate Cake[12]	    112
+
+										Tiramisu[9] 			    96
+										New York Cheese Cake[10] 	    102
+	     6[6]		   0.7 		     5 		 Steam[42]	Black Forest[11] 		    108
+										Caramel Cream[7] 		    84
+										Oreo Cake[8] 			    90
+										Old Fashion Chocolate Cake[12]	    114
+
+										Tiramisu[9] 			    114
+										New York Cheese Cake[10] 	    120
+       	       		      					Ice cream[60]	Black Forest[11] 		    126
+										Caramel Cream[7] 		    104
+										Oreo Cake[8] 			    108
+										Old Fashion Chocolate Cake[12]	    132
+	#####################################################################################################################
+
+										Tiramisu[9] 			    112
+										New York Cheese Cake[10] 	    120
+       	      		       					 Baked[40]	Black Forest[11] 		    128
+										Caramel Cream[7] 		    96
+										Oreo Cake[8] 			    104
+										Old Fashion Chocolate Cake[12]	    136
+
+										Tiramisu[9] 			    114
+										New York Cheese Cake[10] 	    122
+	     8[8]		   1.3 		     5 		 Steam[42]	Black Forest[11] 		    130
+										Caramel Cream[7] 		    98
+										Oreo Cake[8] 			    106
+										Old Fashion Chocolate Cake[12]	    138
+
+										Tiramisu[9] 			    132
+										New York Cheese Cake[10] 	    140
+	       		       		      			Ice cream[60]	Black Forest[11] 		    148
+										Caramel Cream[7] 		    116
+										Oreo Cake[8] 			    124
+										Old Fashion Chocolate Cake[12]	    136
+
+	#####################################################################################################################
+	#####################################################################################################################
+
+	For the first 3 questions below, Please state the CODE : 
+
+
+	The size provided:
+	  6 [6]
+	  8 [8]
+
+	Which size do you want? : 8
+
+
+	The cake provided:
+
+	 Tiramisu [9]
+	 New York Cheese Cake [10]
+	 Black Forest[11]
+	 Caramel Cream[7]
+	 Oreo Cake[8]
+	 Old Fashion Chocolate Cake[12]
+
+	What is the name of cake that you want to order? : 8
+
+
+	The type of cake provided:
+
+	 Baked [40]
+	 Steam [42]
+	 Ice cream [60]
+
+	What type of cake do you prefer? : 60
+
+
+	The number of cake you can choose:
+	 1 [1]
+	 2 [2]
+	 3 [3]
+	 4 [4]
+	 5 [5]
+	How many cakes do you want?: 1
+
+	####################################################################################################################
+					Packaging for Category 1: Special Choose
+	####################################################################################################################
+	 Type 		Height(inch)/Shape [code] 	Decoration colour/colour 	Material Used [code] 	Price (RM)
+
+		 		      				White 			  Glass[46] 		    184
+				4[4]    			Silver			  Clay[35] 		    140
+								Gold 			  Wood[35] 		    44
+	Cake_Stand									  Aluminium[11] 	    28
+
+		 		      				White 			  Glass]46] 		    230
+				5[5]    			Silver			  Clay[35] 		    175
+								Gold 			  Wood[35] 		    55
+											  Aluminium[11] 	    35
+	#########################################################################################################################
+			    Square[1] 				White 			  Glass[46] 		    46
+	Cake_Board	    Rectangle[1]  			Silver			  Clay[35] 		    35
+			    Round[1]				Gold 			  Wood[7] 		    11
+											  Aluminium[11]		    7
+
+	#########################################################################################################################
+	#########################################################################################################################
+
+	For the questions below, Please state the CODE : 
+
+	The size provided:
+	  4 [4]
+	  5 [5]
+	 Square [1]
+	 Rectangle [1]
+	 Round[1]
+
+	What is the height/shape of packaging : 5
+
+
+	The material of packaging you can choose:
+	 Glass [46]
+	 Clay [35]
+	 Wood [35]
+	 Aluminium[11]
+
+	What is the material used to create the packaging? : 46
+
+
+	###########################################
+		CUSTOMER'S RECEIPT
+
+		NAME: SUHAILA
+		DATE TO PICK UP: 25
+
+		DETAILS
+		CODE FOR SIZE OF CAKE: 8.0
+		CODE FOR CAKE: 8.0
+		CODE FOR TYPE OF CAKE: 60.0
+		QUANTITY OF CAKE: 1.0
+		CODE FOR PACKAGING SIZE: 5.0
+		CODE FOR PACKAGING MATERIAL: 46.0
+
+		SUBTOTAL: 354.0
+		DISCOUNT RECEIVE: 17.7
+		TOTAL PAYMENT: 336.3
+
+	       *Please bring your container
+		3 days before date of pick up
+		Thank you for purchase from us*
+
+	###########################################
+
+
+
+FOR CATEGORY 2
+
+Hi! Welcome to Special Cake!!!
+
+	The services we offer are :
+	 1. Special Choose 
+	 2. Special Slice 
+	 3. Special Cupcake 
+
+	 Which service do you prefer: 2
+
+
+	     Please fill the information detail 
+
+	Please state your name: SUHAILA
+	Please state your contact number: 0134349430
+	Please state your address: KAMPUNG KODIANG LAMA DALAM
+
+	Please state the date of order (The date only): 15
+	Please state the month of order: 6
+
+	Please state date to pick up (7 days after date of order): 23
+	Please state the month of pick up: 6
+
+
+		####################################################################################################################
+							Category 2: Special Cupcake
+		####################################################################################################################
+
+		 Size(inch) [code] 	Weight (kg) 	Height(inch) 	Type [code] 	Name [code] 			Price (RM)
+
+											Banana[1.5] 			    4
+											Carrot[2.5] 			    6
+		       		      		       			 Baked[1]	Chocolate[1.0] 			    3
+											Vanila[0.5] 			    2
+
+											Banana[1.5] 			    4.5
+											Carrot[2.5] 			    6.5
+		     2.0[2]		   0.08 	     1.5 	 Steam[1.5]	Chocolate[1.0] 			    3.5
+											Vanila[0.5] 			    2.5
+
+											Banana[1.5] 			    5
+											Carrot[2.5] 			    7
+		       		      		       			 Ice cream[1]	Chocolate[1.0] 			    4
+											Vanila[0.5] 			    3
+		#####################################################################################################################
+
+											Banana[1.5] 			    4.75
+											Carrot[2.5] 			    7.25
+		       		      		       			 Baked[1]	Chocolate[1.0] 			    3.5
+											Vanila[0.5] 			    2.25
+
+											Banana[1.5] 			    5.25
+											Carrot[2.5] 			    7.75
+		     2.5[2.5]		   0.08 	     1.5 	 Steam[1.5]	Chocolate[1.0] 			    4
+											Vanila[0.5] 			    2.75
+
+											Banana[1.5] 			    5.75
+											Carrot[2.5] 			    8.25
+		       		      		       			 Ice cream[1]	Chocolate[1.0] 			    4.5
+											Vanila[0.5] 			    3.25
+
+		#####################################################################################################################
+		#####################################################################################################################
+
+	For the first 3 questions below, Please state the CODE : 
+
+
+	For the questions below, Please state the CODE : 
+
+	The size provided:
+	  2 [2]
+	  2.5 [2.5]
+
+	Which size do you want? : 2.5
+
+
+	The name provided:
+	 Banana [1.5]
+	 Carrot [2.5]
+	 Chocolate[1.0]
+	 Vanilla[0.5]
+
+	What is the name of cake that you want to order? : 1.0
+
+
+	The type of cake provided:
+
+	 Baked [1]
+	 Steam [1.5]
+	 Ice cream [1]
+
+	What type of cake do you prefer? : 1
+
+
+	The number of cake you can choose:
+	 1 [1]
+	 2 [2]
+	 3 [3]
+	 4 [4]
+	 5 [5]
+	How many cakes do you want?: 4
+
+
+	#####################################################################
+			 Packaging for Category 2: Special Cupcake
+	#####################################################################
+	 Type  		Height/code 	Material Used [code] 	Price (RM)
+
+		 		      	Aluminium foil[2]  	    2
+	Box_of_		  3[1]		Bagasse Paper[3] 	    3
+	6_cups				Shop's container[8] 	    8
+					Container[0] 		    0
+
+	#####################################################################
+	#####################################################################
+
+	The size provided:
+	 3 [1]
+
+	What is the height/shape of packaging : 1
+
+
+	The material of packaging you can choose:
+	Aluminium foil [2]
+	 Bagasse Paper [3]
+	 Shop's container [8]
+	 Container [0]
+
+	What is the material used to create the packaging? : 8
+
+
+	###########################################
+		CUSTOMER'S RECEIPT
+
+		NAME: SUHAILA
+		DATE TO PICK UP: 23
+
+		DETAILS
+		CODE FOR SIZE OF CAKE: 2.5
+		CODE FOR CAKE: 1.0
+		CODE FOR TYPE OF CAKE: 1.0
+		QUANTITY OF CAKE: 4.0
+		CODE FOR PACKAGING SIZE: 1.0
+		CODE FOR PACKAGING MATERIAL: 8.0
+
+		SUBTOTAL: 46.0
+		DISCOUNT RECEIVE: 2.3
+		TOTAL PAYMENT: 43.7
+
+	       *Please bring your container
+		3 days before date of pick up
+		Thank you for purchase from us*
+
+	###########################################
+  
+  
+  
+  FOR CATEGORY 3
+  
+  		Hi! Welcome to Special Cake!!!
+
+	The services we offer are :
+	 1. Special Choose 
+	 2. Special Slice 
+	 3. Special Cupcake 
+
+	 Which service do you prefer: 3
+
+
+		Please fill the information detail 
+
+	Please state your name: SUHAILA
+	Please state your contact number: 0134349430
+	Please state your address: KAMPUNG KODIANG LAMA DALAM
+
+	Please state the date of order (The date only): 15
+	Please state the month of order: 6
+
+	Please state date to pick up (7 days after date of order): 29
+	Please state the month of pick up: 6
+
+
+		####################################################################################################################
+							Category 3: Special Slice
+		####################################################################################################################
+
+		 Size(inch) [code] 	Shape (kg) 	Height(inch) 	Type [code] 	Name [code] 			Price (RM)
+
+											Burnt Cheese[3] 		    10
+											Red velvet[4] 			    10
+		       2[0]		Triangular	     5       	 Baked[10]	Rainbow[15] 			    10
+											Creamy Vanila Fruit Cake[6] 	    10
+											Chocolate Truffle Cream Cake[13]    10
+											Classic Almond Cake[14] 	    10
+
+		#####################################################################################################################
+		#####################################################################################################################
+
+	For the first 3 questions below, Please state the CODE : 
+
+
+	For the questions below, Please state the CODE : 
+
+	The size provided:
+	  2 [0]
+
+	Which size do you want? : 0
+
+
+	The name provided:
+	 Burnt Cheese [3]
+	 Red velvet [4]
+	 Rainbow [15]
+	 Creamy Vanila Fruit Cake[6]
+	 Chocolate Truffle Cream Cake[13]
+	 Classic Almond Cake[14]
+
+	What is the name of cake that you want to order? : 14
+
+
+	The type of cake provided:
+	 Baked [10]
+
+	What type of cake do you prefer? : 10
+
+
+	The number of cake you can choose:
+	 1 [1]
+	 2 [2]
+	 3 [3]
+	 4 [4]
+	 5 [5]
+	How many cakes do you want?: 5
+
+
+	#####################################################################
+			 Packaging for Category 3: Special Slice
+	#####################################################################
+	 Type  		Height/code 	Material Used [code] 	Price (RM)
+
+		 		      	Aluminium foil[0.7]  	    1.4
+	Box_of_		  6[2]		Bagasse Paper[0.5] 	    1
+	2_slices			Shop's container[2] 	    4
+					Container[0] 		    0
+
+	#####################################################################
+	#####################################################################
+
+	The size provided:
+	 6 [2]
+
+	What is the height/shape of packaging : 2
+
+
+	The material of packaging you can choose:
+	 Aluminium foil [0.7]
+	 Bagasse Paper [0.5]
+	 Shop's container [2]
+	 Container [0]
+
+	What is the material used to create the packaging? : 0.7
+
+
+	###########################################
+		CUSTOMER'S RECEIPT
+
+		NAME: SUHAILA
+		DATE TO PICK UP: 29
+
+		DETAILS
+		CODE FOR SIZE OF CAKE: 0.0
+		CODE FOR CAKE: 14.0
+		CODE FOR TYPE OF CAKE: 10.0
+		QUANTITY OF CAKE: 5.0
+		CODE FOR PACKAGING SIZE: 2.0
+		CODE FOR PACKAGING MATERIAL: 0.7
+
+		SUBTOTAL: 57.0
+		DISCOUNT RECEIVE: 2.9
+		TOTAL PAYMENT: 54.2
+
+	       *Please bring your container
+		3 days before date of pick up
+		Thank you for purchase from us*
+
+	###########################################
