@@ -1,19 +1,19 @@
 Please enter your name
-ARON
+Aaron
 Please enter your age
-21
+19
 Please enter your contact number
-0111456789
+013456789
 Please enter your address
-NEWYORK
+Habu
 Do you have any medical condition,if yes please state
-NO
+No
 Your details :
-Name :null
-Age : 21
-Address : NEWYORK
-Contact number : 111456789
-Medical Condition : NO
+Name :Aaron
+Age : 19
+Address : Habu
+Contact number : 13456789
+Medical Condition : No
 /////////////////////////////////////////////////////////////////////////////////////////
 Here are the types of the flour to be chosen
 Please write price according to the list to select type of flour
@@ -64,9 +64,10 @@ Please enter the quantity of your bread
 The quantity of your bread is 2.0
 The total price of your order is RM11.80
 Discount Price :RM1.18
-Price to be paid :RM10.62 
-
+Price to be paid :RM10.62
+Please enter 'Y' if your order is correct
+Y
 Please pay at the counter
 *******************************Thank You For Visiting Us**********************************************
 ***********************************Please Come Again**************************************************
-Quote for today:Good health based on good food
+Quote for today: Good health based on good food
