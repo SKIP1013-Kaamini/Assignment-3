@@ -6,6 +6,7 @@ class Assignment2 {
 		// TODO Auto-generated method stub
 		
 		Scanner scan = new Scanner (System.in);
+		
 		int i = 2;
 		double priceflr,priceflvr,pricetoppings ;
 	    double amountflr;
@@ -159,15 +160,15 @@ class Assignment2 {
 					System.out.println("Please check again and enter 'Y'");
 				i++;
 		}while (i>3);
-		
+			String[] message = {"Good health based on good food" };//array
+			showMessage(message);
 
 		  	}
 	public static String showName() {//method
-		String name1 = null;
 		Scanner scan = new Scanner (System.in);
 		System.out.println("Please enter your name");
 		String name = scan.next();
-		return name1;
+		return name;
 		
 	}
 	public static int showAge() {
@@ -194,10 +195,10 @@ class Assignment2 {
 		String medcod = scan.next();
 		return medcod;
 	}
-	public static void showMessage() {//passing array to method
+	public static void showMessage(String [] message) {//passing array to method
 
 		System.out.println("");
-		String[] message = {"Good health based on good food" };//array
+		
 		for (int word = 0; word < message.length; word++)
 			System.out.println("Quote for today :" + message[word] );
 	
