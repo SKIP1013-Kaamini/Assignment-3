@@ -6,6 +6,7 @@ class Assignment2 {
 		// TODO Auto-generated method stub
 		
 		Scanner scan = new Scanner (System.in);
+		int i = 2;
 		double priceflr,priceflvr,pricetoppings ;
 	    double amountflr;
 	    double amountmilk;
@@ -19,6 +20,7 @@ class Assignment2 {
 		double quantity;
 		double pricediscount;
 		double finalprice;
+		char yes = 'Y';
 		String name =showName();//declare array
 		int age = showAge();
 		int no =showNo();
@@ -146,10 +148,17 @@ class Assignment2 {
 			pricediscount=finalprice;
 		System.out.printf("\nDiscount Price :RM%.2f" , pricediscount);
 		System.out.printf("\nPrice to be paid :RM%.2f" ,(finalprice - pricediscount));
-		System.out.println(" ");
-		System.out.println("\nPlease pay at the counter");
-		System.out.println("*******************************Thank You For Visiting Us**********************************************");
-		System.out.println("***********************************Please Come Again**************************************************"); 
+		 System.out.println("\nPlease enter 'Y' if your order is correct");
+		    yes = scan.next().charAt(0);
+			if (yes == 'Y') {
+				System.out.println("Please pay at the counter");
+			    System.out.println("*******************************Thank You For Visiting Us**********************************************");
+			    System.out.println("***********************************Please Come Again**************************************************"); } 
+			else 
+				do {
+					System.out.println("Please check again and enter 'Y'");
+				i++;
+		}while (i>3);
 		
 
 		  	}
